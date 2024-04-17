@@ -73,10 +73,82 @@ h6 {
   isolation: isolate;
 }
 
-.attribution {
-  font-size: 11px;
+body {
+  background-color: var(--clr-neutral-900);
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+}
+
+.hero {
+  background-color: var(--clr-neutral-700);
+  padding: 2.5rem;
+  border-radius: 0.75rem;
+  width: 400px;
+  margin-bottom: 1.5rem;
+}
+
+.hero__image {
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.hero__title-name {
+  color: var(--clr-neutral-100);
   text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.hero__subtitle-location {
+  color: var(--clr-primary-400);
+  text-align: center;
+  font-size: var(--fs-paragraph);
+  margin-bottom: 1.55rem;
+  letter-spacing: 1px;
+}
+
+.hero__about {
+  color: var(--clr-neutral-100);
+  font-size: var(--fs-paragraph);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.hero__links-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__btn {
+  width: 100%;
+  background-color: var(--clr-neutral-900);
+  cursor: pointer;
+  color: var(--clr-neutral-100);
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-family: "InterSemi";
+}
+
+.hero__link:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.hero__btn:hover {
+  background-color: var(--clr-primary-400);
+  color: var(--clr-neutral-700);
+  font-family: "InterBold";
+}
+
+.attribution {
+  font-size: 0.75rem;
+  text-align: center;
+  color: var(--clr-neutral-100);
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--clr-primary-400);
+  text-decoration: none;
 }
