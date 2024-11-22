@@ -87,10 +87,11 @@ Here I represent using of `@font-face` rules to load fonts locally.
 
 This was fun project for me and also usefull for sharing my social links. In future I would like to use this learned skills and try something new like animations after hover/enter some box on page.
 
+
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Kevin Powell](https://www.youtube.com/@KevinPowell/videos) - Kevin really loves and know so many details around CSS and watching him on youtube is really helpfull with his explanations and approach. Ty Kevin.
+
 
 ## Author
 
