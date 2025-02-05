@@ -16,6 +16,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 - [Author](#author)
 
 ## Overview
+
 Here you can see how my Social profile page component challenge looks like after finishing
 
 ### The challenge
@@ -26,7 +27,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![My desktop design preview for Social links profile page](./assets/images/my-desktop-design-preview.png)
+
+![My desktop design hover/focus link preview for Social links profile page](./assets/images/my-desktop-design-preview-active-link.png)
 
 ### Links
 
@@ -34,6 +37,7 @@ Users should be able to:
 - Live Site URL: [Live site URL here](https://jmarsic-social-links-profile.netlify.app/)
 
 ## My process
+
 First I edited HTML and add some corresponding classes. After I download font style and implement it inside HTML head. After creating style.css I add variables to `:root` for later use. When setup was finished I first reset CSS and after that added styles that match design and given style guide. Hope you like it! 👋
 
 ### Built with
@@ -53,8 +57,8 @@ First I edited HTML and add some corresponding classes. After I download font st
   alt="my profile picture"
 />
 ```
-This piece of code is nothing special, but I used `alt` attribute that specifies an alternate text for an image, if the image cannot be displayed and it is good use for more and more cases where user uses `screen reader`. 
 
+This piece of code is nothing special, but I used `alt` attribute that specifies an alternate text for an image, if the image cannot be displayed and it is good use for more and more cases where user uses `screen reader`.
 
 ```css
 :root {
@@ -71,8 +75,8 @@ This piece of code is nothing special, but I used `alt` attribute that specifies
   --fw-bold: 700;
 }
 ```
-Here I represent piece of code `:root` pseudo class where I globally define CSS variables.
 
+Here I represent piece of code `:root` pseudo class where I globally define CSS variables.
 
 ```css
 @font-face {
@@ -80,18 +84,16 @@ Here I represent piece of code `:root` pseudo class where I globally define CSS 
   src: url(./assets/fonts/static/Inter-Regular.ttf);
 }
 ```
-Here I represent using of `@font-face` rules to load fonts locally.
 
+Here I represent using of `@font-face` rules to load fonts locally.
 
 ### Continued development
 
 This was fun project for me and also usefull for sharing my social links. In future I would like to use this learned skills and try something new like animations after hover/enter some box on page.
 
-
 ### Useful resources
 
 - [Kevin Powell](https://www.youtube.com/@KevinPowell/videos) - Kevin really loves and know so many details around CSS and watching him on youtube is really helpfull with his explanations and approach. Ty Kevin.
-
 
 ## Author
 

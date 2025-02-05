@@ -143,6 +143,12 @@ body {
   font-family: "InterBold";
 }
 
+.hero__btn:focus {
+  background-color: var(--clr-primary-400);
+  color: var(--clr-neutral-700);
+  font-family: "InterBold";
+}
+
 .attribution {
   font-size: 0.75rem;
   text-align: center;
